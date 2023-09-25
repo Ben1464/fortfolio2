@@ -11,7 +11,7 @@
 }
 nav{
     display: flex;
-    width: 84%;
+    width: 74%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
@@ -20,24 +20,27 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 80px;
+    font-size: 24px;
 }
 nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    background-color: #f8f8f8;
 }
 nav ul li a:hover{
     color: crimson;
 }
 .details{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 8%;
+    font-size: 24px;
 }
 .details h1{
     font-size: 50px;
     color: #212121;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 span{
     color:darkorange;
@@ -56,36 +59,23 @@ span{
     margin: 30px o;
     border-radius: 5px;
 }
-.images{
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
-.images img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s,left 1s;
-}
-.images:hover.shape{
-    bottom: 40px;
-}
-.image:hover.picture{
-    left: 45%;
-}
-.hero img{
-    border-radius: 8px;
-}
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px;
+    padding: 50px;
+    font-size: 24px;
 
 }
-.darkModeToggle{
-    background-color: #333;
-    color: #fff;
-    padding-right: 120px;
+.hero img{
+    border-radius: 12px;
+}
+button{
+    
+    margin-left: 350px;
+}
+footer{
+    text-align: center;
+}
+.details a:hover{
+    color: crimson;
 }
