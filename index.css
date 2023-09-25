@@ -78,3 +78,14 @@ span{
 .hero img{
     border-radius: 8px;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+
+}
+.darkModeToggle{
+    background-color: #333;
+    color: #fff;
+    padding-right: 120px;
+}
