@@ -1,5 +1,9 @@
-let darkMode = false;
-document.querySelector('#darkModeToggle').addEventListener('click', () => {
-    darkMode = !darkMode;
-    document.body.classList.toggle('dark-mode', darkMode);
-});
+function toggleDarkMode(){
+    const body = document.body;
+    if(body.getAttribute('data-theme')==='dark'){
+        body.removeAttribute('data-theme');
+    } else {
+        body.removeAttribute('data-theme','dark');
+    }
+}
+    
