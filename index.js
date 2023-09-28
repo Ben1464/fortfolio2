@@ -1,9 +1,15 @@
-function toggleDarkMode(){
-    const body = document.body;
-    if(body.getAttribute('data-theme')==='dark'){
-        body.removeAttribute('data-theme');
+const topButton = documnet.getElementById('backToTopBtn');
+window.onscroll = fuction() {
+    scrollFunction();
+};
+function scrollFunction(){
+    if(document.body.scrollTop>20 || document.documentElement.scrollTop>20){
+        topButton.style.display = "block";
     } else {
-        body.removeAttribute('data-theme','dark');
+        topButton.style.display = "none";
     }
 }
+topButton.addEventListener('click',function () {
+window.scrollTo({top:0,behavior:'smooth'});
+});
     

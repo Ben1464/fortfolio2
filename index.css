@@ -30,8 +30,9 @@ nav ul li a{
     background-color: #f8f8f8;
 }
 nav ul li a:hover{
-    color: crimson;
+    color:rgba(16, 201, 242, 0.988);
 }
+
 .details{
     margin-left: 8%;
     margin-top: 8%;
@@ -43,7 +44,7 @@ nav ul li a:hover{
     margin-bottom: 10px;
 }
 span{
-    color:darkorange;
+    color:rgba(16, 201, 242, 0.988)
 }
 .details p{
     color: #555;
@@ -78,5 +79,26 @@ body[data-theme='dark']{
     height: 30px;
     padding-left: 80px;
     margin: 2px;
+    color:rgba(16, 201, 242, 0.988);
     
+}
+footer{
+    text-align: center;
+    color:black;
+}
+#backToTopBtn{
+    display: none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    transition: background-color 0.3s;
+}
+#backToTopBtn:hover{
+    background-color: #555;
 }
